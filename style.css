@@ -4,24 +4,24 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.header-wrapper {
+.header-wrap {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.header-wrapper img {
+.header-wrap img {
   width: 100%;
 }
-.header-wrapper .more-info {
+.header-wrap .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .header-wrapper { text-align: center;
+  .header-wrap { text-align: center;
   }
 }
-.main-wrapper {
+.main-wrap {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -31,7 +31,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.row-task-wrapper {
+.row-task {
   display: flex;
 }
 ul {
