@@ -15,7 +15,9 @@ button {
   outline: none;
 }
 
-button {
+.todo__add_row-btn,
+.edit,
+.delete {
   background: none;
   border: 0px;
   color: #888;
@@ -25,7 +27,9 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.todo__add_row-btn:hover,
+.edit:hover,
+.delete:hover {
   color: #3a3a3a;
 }
 
