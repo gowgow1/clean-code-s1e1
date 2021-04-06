@@ -20,12 +20,10 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-
+@media (max-width: 768px) {
   .header-wrap {
-    text-align: center; 
+    text-align: center;
   }
-
 }
 
 .main-wrap {
@@ -37,7 +35,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .row-task {
@@ -45,15 +43,17 @@ body {
 }
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
 
-input,button{
+input,
+button {
   outline: none;
 }
 
@@ -136,9 +136,7 @@ li > label {
   width: 226px;
 }
 
-li >    input[type="text"] {
-  width: 226px;
-}
+li > input[type="text"] {
 
 button.delete img {
   height: 2em;
@@ -152,7 +150,7 @@ button.delete img:hover {
 
 /* Completed */
 ul#completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
