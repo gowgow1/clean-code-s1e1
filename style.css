@@ -2,7 +2,7 @@
 body {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .header-wrap {
@@ -17,7 +17,7 @@ body {
 }
 
 .header-wrap .more-info {
-  font-family: fantasy, cursive;
+  font-family: "fantasy", "cursive";
 }
 
 @media (max-width: 768px) {
@@ -63,7 +63,7 @@ button {
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
   cursor: pointer;
 }
 
@@ -92,7 +92,7 @@ input[type="text"] {
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
   color: #888;
 }
 
@@ -137,6 +137,8 @@ li > label {
 }
 
 li > input[type="text"] {
+  width: 226px;
+}
 
 button.delete img {
   height: 2em;
