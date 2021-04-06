@@ -83,7 +83,8 @@ button:hover {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.list_item-input,
+.todo__add_row-task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -96,7 +97,11 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.list_item-input:focus {
+  color: #333;
+}
+
+.todo__add_row-task:focus {
   color: #333;
 }
 
