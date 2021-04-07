@@ -11,13 +11,13 @@
       <a class="header-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="todo">
-      <p class="addition">
-        <p class="addition__title">Add Item</p>
-        <div class="addition__form">
+      <section class="addition">
+        <h3 class="addition__title">Add Item</h3>
+        <form class="addition__form" method="dialog">
           <input id="addition__input" class="addition__input task" type="text">
           <button class="addition__btn">Add</button>
-        </div>
-      </p>
+        </form>
+      </section>
       <h3 class="todo__title">Todo</h3>
       <ul id="incomplete" class="incomplite list">
         <li class="incomplete__item list__item">
@@ -26,7 +26,7 @@
           <input class="list__input task" type="text">
           <button class="list__btn list__btn_edit">Edit</button>
           <button class="list__btn list__btn_delete">
-            <img src="./remove.svg" class="list__img">
+            <img src="./remove.svg" alt="remove icon" class="list__img">
           </button>
         </li>
         <li class="incomplete__item list__item mode_edit">

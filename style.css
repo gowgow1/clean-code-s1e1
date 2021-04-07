@@ -68,6 +68,7 @@ button {
 
 .addition__form {
   display: flex;
+  padding-top: 20px;
 }
 
 .list {
@@ -76,6 +77,7 @@ button {
 }
 
 /* Heading */
+.addition__title,
 .todo__title,
 .todo__add-label {
   color: #333;
